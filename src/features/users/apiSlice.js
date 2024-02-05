@@ -38,8 +38,23 @@ export const api = createApi({
                 body:payload
             }),
             invalidatesTags:['users']
+        }),
+        updateUser: builder.mutation({
+            query:(payload)=>({
+                url:`/users/${payload.id}`,
+                method:'PUT',
+                body:payload
+            }),
+            invalidatesTags:['users']
+        }),
+        deleteUser: builder.mutation({
+            query:(id)=>({
+                url: `/users/${id}`,
+                method:"DELETE"
+            }),
+            invalidatesTags:['users']
         })
     })
 })
 
-export const {useGetUsersQuery, useAddUserMutation} = api
+export const {useGetUsersQuery, useAddUserMutation,useUpdateUserMutation,useDeleteUserMutation} = api

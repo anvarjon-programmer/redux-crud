@@ -2,9 +2,9 @@
   "users": [
     {
       "name": "Anvar",
-      "age": 19,
+      "age": "19",
       "address": "Namangan",
-      "phone": 99999999,
+      "phone": "99999999333",
       "id": "6b3c"
     },
     {
@@ -13,20 +13,6 @@
       "age": "232",
       "address": "asda",
       "phone": "214312"
-    },
-    {
-      "id": "d8bd",
-      "name": "Ali",
-      "age": "18",
-      "address": "Toshkent",
-      "phone": "55555"
-    },
-    {
-      "id": "017f",
-      "name": "Anvar",
-      "age": "23",
-      "address": "Samarqand",
-      "phone": "123456"
     }
   ]
 }
