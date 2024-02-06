@@ -28,7 +28,7 @@ export default function UsersModal({open,toggle,edit}) {
                 <input type="number" defaultValue={edit.age} placeholder='Age...' className='form-control my-2' />
                 <input type="text" defaultValue={edit.address} placeholder='Name...' className='form-control my-2' />
                 <input type="number" defaultValue={edit.phone} placeholder='Phone...' className='form-control my-2' />
-                 <button className='btn btn-success'>add</button>
+                <button className='btn btn-success'>add</button>
             </form>
         </ModalBody>
     </Modal>
