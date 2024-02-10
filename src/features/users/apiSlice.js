@@ -3,7 +3,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export const api = createApi({
-    baseQuery: fetchBaseQuery({baseUrl:"http://54.169.228.2:3001/api/category/create"}),
+    baseQuery: fetchBaseQuery({baseUrl:"http://34.143.212.163:3000/api/category/create"}),
     tagTypes: ['users'],
     endpoints:(builder) =>({
         getUsers:builder.query({
